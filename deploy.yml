@@ -16,7 +16,7 @@ env:
   AWS_S3_DETECTED_IMAGES_FOLDER: detected_images
   MONGODB_DATABASE: aws-django-application-poc
   MONGODB_COLLECTION: object-detection
-  FREE_TRIAL_TASK_COUNT: 0
+  FREE_TRIAL_TASK_COUNT: 0 # set this to 1 if you want automated distribution to AWS from this repo, otherwise set to 0.
   
 permissions:
   contents: read
